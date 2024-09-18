@@ -30,6 +30,12 @@ namespace Biblioteca.Controllers
             }
             else
             {
+
+
+
+
+
+                
                 emprestimoService.Atualizar(viewModel.Emprestimo);
             }
             return RedirectToAction("Listagem");

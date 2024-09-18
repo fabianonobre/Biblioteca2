@@ -11,6 +11,8 @@ namespace Biblioteca.Controllers
             if(string.IsNullOrEmpty(HttpContext.Session.GetString("user")))
             {
                 filterContext.HttpContext.Response.Redirect("/Home/Login");
+
+                
             }
         }
     }
